@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThrottleCare (Namma Garage) - Interactive User Guide & Documentation</title>
+    <title>ThrottleCare (Namma Garage) - User Guide, Brochure & Privacy Policy</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -35,31 +35,33 @@
                 </div>
                 <div>
                     <h1 class="text-lg font-bold tracking-tight text-white">ThrottleCare</h1>
-                    <p class="text-xs text-[#94A3B8]">Interactive User Manual & Platform Guide</p>
+                    <p class="text-xs text-[#94A3B8]">Interactive User Manual & Privacy Policy</p>
                 </div>
             </div>
             <div class="flex items-center gap-3">
-                <a href="#quickstart" class="px-4 py-2 text-xs font-semibold rounded-lg bg-orange-600 hover:bg-orange-500 text-white transition">Quick Start</a>
+                <a href="#manual-accordion" class="px-4 py-2 text-xs font-semibold rounded-lg bg-orange-600 hover:bg-orange-500 text-white transition">User Guide</a>
+                <a href="#privacy-policy" class="px-4 py-2 text-xs font-semibold rounded-lg bg-purple-600 hover:bg-purple-500 text-white transition">Privacy Policy</a>
                 <a href="https://github.com" target="_blank" class="px-4 py-2 text-xs font-semibold rounded-lg bg-[#1E293B] hover:bg-slate-700 text-[#94A3B8] hover:text-white transition">GitHub Repo</a>
             </div>
         </div>
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-4xl mx-auto px-6 py-12 space-y-10">
+    <main class="max-w-4xl mx-auto px-6 py-12 space-y-12">
         <!-- Intro Banner -->
         <div class="bg-gradient-to-r from-orange-500/10 via-amber-500/10 to-blue-500/10 border border-orange-500/20 rounded-2xl p-8 space-y-4">
             <div class="inline-block px-3 py-1 rounded-full bg-orange-500/20 text-orange-400 text-xs font-bold tracking-wide uppercase">
-                Official Documentation & Brochure
+                Official Documentation & Privacy Statement
             </div>
-            <h2 class="text-3xl font-extrabold text-white tracking-tight">Complete SaaS Platform & Mobile App Guide</h2>
+            <h2 class="text-3xl font-extrabold text-white tracking-tight">Complete SaaS Platform Guide & Privacy Policy</h2>
             <p class="text-[#94A3B8] text-sm leading-relaxed">
-                ThrottleCare (Namma Garage) is an enterprise-grade independent garage management platform connecting Garage Owners, Mechanics, Customers, and Super Administrators in real time with Supabase cloud sync. Click on any section below to expand and explore step-by-step use cases.
+                ThrottleCare (Namma Garage) is an enterprise-grade independent garage management platform connecting Garage Owners, Mechanics, Customers, and Super Administrators in real time with Supabase cloud sync. Explore the interactive guide below or review our official Privacy Policy.
             </p>
         </div>
 
         <!-- Accordions Container -->
         <div class="space-y-4" id="manual-accordion">
+            <h3 class="text-xl font-bold text-white px-2">📖 Interactive Platform User Guide</h3>
             
             <!-- SECTION 1: Garage Owner / Admin -->
             <div class="border border-[#1E293B] bg-[#141824] rounded-xl overflow-hidden transition">
@@ -67,7 +69,7 @@
                     <div class="flex items-center space-x-4">
                         <span class="text-2xl">👑</span>
                         <div>
-                            <h3 class="font-bold text-white text-base">1. Garage Owner & Admin Guide</h3>
+                            <h4 class="font-bold text-white text-base">1. Garage Owner & Admin Guide</h4>
                             <p class="text-xs text-[#94A3B8]">Setup, staff management, job cards, inventory, and billing</p>
                         </div>
                     </div>
@@ -75,24 +77,24 @@
                 </button>
                 <div id="content-sec-admin" class="hidden px-6 pb-6 pt-2 border-t border-[#1E293B] space-y-6 text-sm text-[#94A3B8]">
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>🛠️</span> Setting Up Your Garage Code & Profile</h4>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>🛠️</span> Setting Up Your Garage Code & Profile</h5>
                         <p class="leading-relaxed">When launching the app for the first time, register as an <strong>Admin</strong>. Enter your garage name, phone number, operating city, and create a unique <strong>Garage Code</strong> (e.g. `NG-9812`). This code securely scopes all your data in Supabase.</p>
                     </div>
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>👷</span> Adding Mechanics & Staff</h4>
-                        <p class="leading-relaxed">Go to the <strong>People</strong> tab from the bottom navigation. Tap <strong>+ Add Staff</strong>, enter the mechanic's name, email, PIN, and role (e.g., Senior Technician, Supervisor). Mechanics are added instantly to your staff roster and can log in immediately using their PIN.</p>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>👷</span> Adding Mechanics & Staff</h5>
+                        <p class="leading-relaxed">Go to the <strong>People</strong> tab from the bottom navigation. Tap <strong>+ Add Staff</strong>, enter the mechanic's name, email, PIN, and role. Mechanics are added instantly to your staff roster and can log in immediately using their PIN.</p>
                     </div>
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>🚗</span> Creating Service Job Cards</h4>
-                        <p class="leading-relaxed">Navigate to the <strong>Jobs</strong> tab, tap <strong>+ New Job Card</strong>. Fill in customer details, vehicle plate number, service type, odometer reading, and attach walkaround inspection photos using the zero-permission Android Photo Picker. Assign tasks directly to active mechanics.</p>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>🚗</span> Creating Service Job Cards</h5>
+                        <p class="leading-relaxed">Navigate to the <strong>Jobs</strong> tab, tap <strong>+ New Job Card</strong>. Fill in customer details, vehicle plate number, service type, odometer reading, and attach walkaround inspection photos using the zero-permission Android Photo Picker.</p>
                     </div>
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>📦</span> Inventory & Low Stock Alerts</h4>
-                        <p class="leading-relaxed">Manage spare parts, lubricants, and tools in the <strong>Inventory</strong> tab. Set minimum quantity thresholds. Items falling below the threshold automatically trigger low-stock alerts for quick procurement ordering.</p>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>📦</span> Inventory & Low Stock Alerts</h5>
+                        <p class="leading-relaxed">Manage spare parts, lubricants, and tools in the <strong>Inventory</strong> tab. Set minimum quantity thresholds to trigger automated low-stock alerts.</p>
                     </div>
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>💳</span> Billing, UPI QR & Revenue</h4>
-                        <p class="leading-relaxed">In the <strong>Bills</strong> tab, generate professional invoices, upload your workshop UPI VPA QR code for direct customer scanning, and track monthly collected revenue vs. outstanding bills.</p>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>💳</span> Billing, UPI QR & Revenue</h5>
+                        <p class="leading-relaxed">In the <strong>Bills</strong> tab, generate professional invoices, upload your workshop UPI VPA QR code for direct customer scanning, and track monthly revenue.</p>
                     </div>
                 </div>
             </div>
@@ -103,7 +105,7 @@
                     <div class="flex items-center space-x-4">
                         <span class="text-2xl">🔧</span>
                         <div>
-                            <h3 class="font-bold text-white text-base">2. Mechanic & Labour Guide</h3>
+                            <h4 class="font-bold text-white text-base">2. Mechanic & Labour Guide</h4>
                             <p class="text-xs text-[#94A3B8]">PIN login, duty status, job execution, and WhatsApp updates</p>
                         </div>
                     </div>
@@ -111,16 +113,16 @@
                 </button>
                 <div id="content-sec-labour" class="hidden px-6 pb-6 pt-2 border-t border-[#1E293B] space-y-6 text-sm text-[#94A3B8]">
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>🔑</span> Quick PIN Authentication</h4>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>🔑</span> Quick PIN Authentication</h5>
                         <p class="leading-relaxed">Mechanics select the <strong>Labour</strong> role tab on the login screen, enter their registered email and 4–6 digit PIN, or use biometric quick unlock.</p>
                     </div>
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>🟢</span> Active Duty & Leave Status</h4>
-                        <p class="leading-relaxed">Easily toggle duty status (<em>On Duty</em>, <em>On Leave</em> with reasons like Sick Leave / Family Event, or <em>Off Duty</em>) so supervisors and admins know who is available in the workshop bays.</p>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>🟢</span> Active Duty & Leave Status</h5>
+                        <p class="leading-relaxed">Easily toggle duty status (<em>On Duty</em>, <em>On Leave</em> with reasons like Sick Leave / Family Event, or <em>Off Duty</em>) so supervisors know bay availability.</p>
                     </div>
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>📋</span> Managing Assigned Jobs & WhatsApp Sharing</h4>
-                        <p class="leading-relaxed">View assigned repair jobs, update repair progress percentages, add part photos, and instantly share live job progress reports via WhatsApp with customers with one tap.</p>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>📋</span> Managing Assigned Jobs & WhatsApp Sharing</h5>
+                        <p class="leading-relaxed">View assigned repair jobs, update repair progress percentages, add part photos, and instantly share live job progress reports via WhatsApp with customers.</p>
                     </div>
                 </div>
             </div>
@@ -131,7 +133,7 @@
                     <div class="flex items-center space-x-4">
                         <span class="text-2xl">🚘</span>
                         <div>
-                            <h3 class="font-bold text-white text-base">3. Customer Portal & Vehicle Health</h3>
+                            <h4 class="font-bold text-white text-base">3. Customer Portal & Vehicle Health</h4>
                             <p class="text-xs text-[#94A3B8]">Tracking service progress, service history logbook, and payment</p>
                         </div>
                     </div>
@@ -139,15 +141,15 @@
                 </button>
                 <div id="content-sec-customer" class="hidden px-6 pb-6 pt-2 border-t border-[#1E293B] space-y-6 text-sm text-[#94A3B8]">
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>📊</span> Live Vehicle Health & Progress</h4>
-                        <p class="leading-relaxed">Customers log in with their vehicle plate number to track real-time repair progress, view odometer readings, inspect walkaround photos, and see estimated pick-up readiness.</p>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>📊</span> Live Vehicle Health & Progress</h5>
+                        <p class="leading-relaxed">Customers log in with their vehicle plate number to track real-time repair progress, view odometer readings, inspect walkaround photos, and see pick-up readiness.</p>
                     </div>
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>📖</span> Digital Service Logbook</h4>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>📖</span> Digital Service Logbook</h5>
                         <p class="leading-relaxed">Access historical maintenance records, oil change dates, battery/tyre replacements, and uploaded service receipts in one organized digital logbook.</p>
                     </div>
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>🏷️</span> Member Perks & SOS</h4>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>🏷️</span> Member Perks & SOS</h5>
                         <p class="leading-relaxed">Access workshop member offers, discounts on synthetic oil changes, and one-tap roadside assistance WhatsApp SOS.</p>
                     </div>
                 </div>
@@ -159,7 +161,7 @@
                     <div class="flex items-center space-x-4">
                         <span class="text-2xl">🌐</span>
                         <div>
-                            <h3 class="font-bold text-white text-base">4. Super Admin Platform Guide</h3>
+                            <h4 class="font-bold text-white text-base">4. Super Admin Platform Guide</h4>
                             <p class="text-xs text-[#94A3B8]">Multi-garage overview, subscription tiers, and observability</p>
                         </div>
                     </div>
@@ -167,56 +169,74 @@
                 </button>
                 <div id="content-sec-superadmin" class="hidden px-6 pb-6 pt-2 border-t border-[#1E293B] space-y-6 text-sm text-[#94A3B8]">
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>🏢</span> Multi-Garage Monitoring</h4>
-                        <p class="leading-relaxed">Platform maintainers and super admins (`nammagarageapp@gmail.com`) can view all registered independent garages, active staff counts, and platform-wide metrics from a centralized dashboard.</p>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>🏢</span> Multi-Garage Monitoring</h5>
+                        <p class="leading-relaxed">Platform maintainers and super admins (`nammagarageapp@gmail.com`) can view all registered independent garages, active staff counts, and platform-wide metrics.</p>
                     </div>
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>💳</span> Subscriptions & Plan Tiers</h4>
-                        <p class="leading-relaxed">Manage garage subscription tiers (Free, Pro, Enterprise), bay capacities, and renewal cycles.</p>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>💳</span> Subscriptions & Plan Tiers</h5>
+                        <p class="leading-relaxed">Manage garage subscription tiers (Starter, Pro, Enterprise), bay capacities, and renewal cycles.</p>
                     </div>
                     <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>🎫</span> Support Tickets & Telemetry</h4>
+                        <h5 class="font-bold text-white flex items-center gap-2"><span>🎫</span> Support Tickets & Telemetry</h5>
                         <p class="leading-relaxed">Review user-submitted support tickets, bug logs, and real-time app observability telemetry.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SECTION 5: Security & Privacy -->
-            <div class="border border-[#1E293B] bg-[#141824] rounded-xl overflow-hidden transition">
-                <button onclick="toggleAccordion('sec-security')" class="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-slate-800/40 transition">
-                    <div class="flex items-center space-x-4">
-                        <span class="text-2xl">🔒</span>
-                        <div>
-                            <h3 class="font-bold text-white text-base">5. Security, Biometrics & Privacy</h3>
-                            <p class="text-xs text-[#94A3B8]">AES-256-GCM encryption, biometric quick unlock, and account deletion</p>
-                        </div>
-                    </div>
-                    <svg id="icon-sec-security" class="w-5 h-5 text-[#94A3B8] transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                </button>
-                <div id="content-sec-security" class="hidden px-6 pb-6 pt-2 border-t border-[#1E293B] space-y-6 text-sm text-[#94A3B8]">
-                    <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>🛡️</span> Biometric Quick Unlock</h4>
-                        <p class="leading-relaxed">Leverages Android BiometricPrompt and AES-256-GCM encryption backed by the hardware-backed Android Keystore for secure, password-less login.</p>
-                    </div>
-                    <div class="space-y-2">
-                        <h4 class="font-bold text-white flex items-center gap-2"><span>🗑️</span> Permanent Account & Data Deletion</h4>
-                        <p class="leading-relaxed">Compliant with Google Play Data Safety policies. Users can permanently wipe their local credentials, biometrics, and cloud-synced profile data instantly from Security Settings.</p>
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <!-- Hosting Instructions -->
-        <div id="quickstart" class="border border-blue-500/30 bg-blue-500/5 rounded-2xl p-8 space-y-4">
-            <h3 class="text-xl font-bold text-white">🚀 How to Host This on GitHub Pages</h3>
-            <ol class="list-decimal list-inside space-y-2 text-sm text-[#94A3B8] leading-relaxed">
-                <li>Create a public repository on GitHub (e.g. `throttlecare-brochure`).</li>
-                <li>Upload <code class="bg-[#1E293B] px-2 py-0.5 rounded text-white font-mono">brochure.html</code> and **rename it to <code class="bg-[#1E293B] px-2 py-0.5 rounded text-white font-mono">index.html</code>**.</li>
-                <li>Go to your repository **Settings** → **Pages**.</li>
-                <li>Under **Build and deployment**, select **Deploy from a branch** and choose `main` / `root`.</li>
-                <li>Click **Save**, and within 60 seconds your interactive documentation brochure will be live on GitHub Pages!</li>
-            </ol>
+        <!-- OFFICIAL PRIVACY POLICY SECTION (Required by Google Play Console) -->
+        <div id="privacy-policy" class="border border-purple-500/30 bg-[#141824] rounded-2xl p-8 space-y-6">
+            <div class="flex items-center space-x-3 border-b border-[#1E293B] pb-4">
+                <span class="text-3xl">🛡️</span>
+                <div>
+                    <h3 class="text-xl font-bold text-white">Official Privacy Policy & Data Safety</h3>
+                    <p class="text-xs text-[#94A3B8]">Last updated: November 2026 • ThrottleCare (Namma Garage Platform)</p>
+                </div>
+            </div>
+
+            <div class="space-y-4 text-sm text-[#94A3B8] leading-relaxed">
+                <div class="space-y-1">
+                    <h4 class="font-bold text-white">1. Introduction & Overview</h4>
+                    <p>ThrottleCare ("Namma Garage") respects your privacy and is committed to protecting your personal and operational data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and SaaS platform.</p>
+                </div>
+
+                <div class="space-y-1">
+                    <h4 class="font-bold text-white">2. Information We Collect</h4>
+                    <ul class="list-disc list-inside space-y-1 pl-2">
+                        <li><strong>Account & Profile Data:</strong> Names, email addresses, phone numbers, and encrypted security PINs/passwords required for role authentication (Admin, Labour, Customer, Super Admin).</li>
+                        <li><strong>Workshop & Vehicle Records:</strong> Independent garage names, workshop codes, vehicle registration plate numbers, model details, service job cards, odometer readings, and repair history.</li>
+                        <li><strong>Media Attachments:</strong> Walkaround inspection photos, service bill receipts, and UPI QR code screenshots captured via the zero-permission Android Photo Picker (`PickVisualMedia`) or camera when uploading service records.</li>
+                        <li><strong>Biometric Data:</strong> Local device biometric credentials (fingerprint/face unlock) are processed entirely via the hardware-backed Android Keystore and BiometricPrompt; biometric templates never leave your device and are never stored on our servers.</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-1">
+                    <h4 class="font-bold text-white">3. How We Use Your Information</h4>
+                    <p>We use collected data strictly to provide, maintain, and improve our services, including:</p>
+                    <ul class="list-disc list-inside space-y-1 pl-2">
+                        <li>Operating multi-tenant garage workflows, repair job card tracking, and staff duty management.</li>
+                        <li>Synchronizing workshop records in real time over secure TLS/HTTPS connections with Supabase cloud infrastructure.</li>
+                        <li>Sending job progress updates and invoices via WhatsApp or push notifications.</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-1">
+                    <h4 class="font-bold text-white">4. Data Security & Storage</h4>
+                    <p>All data transmitted between the ThrottleCare app and Supabase cloud database is encrypted in transit using industry-standard TLS. Database access is strictly isolated per garage code (`garage_code`) via Row-Level Security (RLS) policies.</p>
+                </div>
+
+                <div class="space-y-1">
+                    <h4 class="font-bold text-white">5. Data Retention & Account Deletion</h4>
+                    <p>You retain full control over your data. You may permanently delete your account credentials, local biometric profiles, and cloud-synced workshop records at any time directly within the app under <strong>Security & Account Settings</strong> in the top bar. Upon requesting deletion, all associated user-owned records are wiped from active cloud storage.</p>
+                </div>
+
+                <div class="space-y-1">
+                    <h4 class="font-bold text-white">6. Contact Us</h4>
+                    <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact our data protection team at: <br>
+                    <strong class="text-white">Email:</strong> <a href="mailto:nammagarageapp@gmail.com" class="text-orange-400 underline">nammagarageapp@gmail.com</a></p>
+                </div>
+            </div>
         </div>
     </main>
 
